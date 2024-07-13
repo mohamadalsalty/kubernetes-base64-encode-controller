@@ -1,0 +1,9 @@
+apiVersion: kubernetes-base64-encode-controller.my.domain/v1
+kind: Base64Controller
+metadata:
+  labels:
+    app.kubernetes.io/name: kubernetes-base64-encode-controller
+    app.kubernetes.io/managed-by: kustomize
+  name: base64controller-sample
+spec:
+  # TODO(user): Add fields here

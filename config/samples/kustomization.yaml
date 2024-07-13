@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- kubernetes-base64-encode-controller_v1_base64controller.yaml
+# +kubebuilder:scaffold:manifestskustomizesamples
